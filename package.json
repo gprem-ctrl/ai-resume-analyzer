@@ -1,0 +1,27 @@
+{
+  "name": "ai-resume-analyzer",
+  "version": "2.0.0",
+  "description": "Professional AI-Powered Resume Analyzer with Groq AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "resume",
+    "ai",
+    "analyzer",
+    "career",
+    "groq"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.7.0",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
